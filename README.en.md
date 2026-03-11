@@ -34,7 +34,7 @@ pip install openai
 
 # Local mode STT
 pip install openai-whisper
-# pip install torch   # For CPU, it is recommended to install a CPU-specific wheel
+# pip install torch   # For CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu
 
 # Local mode TTS
 pip install edge-tts

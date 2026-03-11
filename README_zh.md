@@ -1,5 +1,7 @@
 # 声文同步 · SyncLyric
 
+[![中文](https://img.shields.io/badge/lang-中文-red)](README_zh.md) [![English](https://img.shields.io/badge/lang-English-blue)](README.en.md) [![日本語](https://img.shields.io/badge/lang-日本語-green)](README.ja.md)
+
 📌 **Audio ↔ Text 双向同步（歌词卡拉OK式高亮）**
 
 > 支持 **☁️ 云端模式**（OpenAI API）和 **💻 本地模式**（openai-whisper + edge-tts），并且支持 **中/英/日三语界面切换**。
