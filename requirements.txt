@@ -1,0 +1,15 @@
+# ---------- Required ----------
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# ---------- Cloud mode (OpenAI API) ----------
+openai>=1.30.0
+
+# ---------- Local STT (openai-whisper, optional) ----------
+# To enable local speech-to-text, install the following:
+# pip install openai-whisper
+# pip install torch  # For CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# ---------- Local TTS (edge-tts, optional) ----------
+# To enable local text-to-speech, install the following:
+# pip install edge-tts

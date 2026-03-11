@@ -1,0 +1,73 @@
+"""Constant configuration (voices, models, etc.)."""
+
+EDGE_VOICES = {
+    "zh": {
+        "zh-CN-XiaoxiaoNeural":  "晓晓·女·普通话·温柔",
+        "zh-CN-YunxiNeural":     "云希·男·普通话·阳光",
+        "zh-CN-YunjianNeural":   "云健·男·普通话·磁性",
+        "zh-CN-XiaoyiNeural":    "晓伊·女·普通话·活泼",
+        "zh-CN-YunyangNeural":   "云扬·男·播音腔",
+        "zh-TW-HsiaoChenNeural": "晓臻·女·台湾普通话",
+        "en-US-JennyNeural":     "Jenny · F · US",
+        "en-US-GuyNeural":       "Guy · M · US",
+        "en-GB-SoniaNeural":     "Sonia · F · British",
+        "en-AU-NatashaNeural":   "Natasha · F · AU",
+        "ja-JP-NanamiNeural":    "七海·女·日本語",
+        "ja-JP-KeitaNeural":     "圭太·男·日本語",
+        "ko-KR-SunHiNeural":     "선히·여·한국어",
+    },
+    "en": {
+        "zh-CN-XiaoxiaoNeural":  "Xiaoxiao · F · Mandarin (CN)",
+        "zh-CN-YunxiNeural":     "Yunxi · M · Mandarin (CN)",
+        "zh-CN-YunjianNeural":   "Yunjian · M · Mandarin (CN)",
+        "zh-CN-XiaoyiNeural":    "Xiaoyi · F · Mandarin (CN)",
+        "zh-CN-YunyangNeural":   "Yunyang · M · Broadcast voice (CN)",
+        "zh-TW-HsiaoChenNeural": "HsiaoChen · F · Mandarin (TW)",
+        "en-US-JennyNeural":     "Jenny · F · US",
+        "en-US-GuyNeural":       "Guy · M · US",
+        "en-GB-SoniaNeural":     "Sonia · F · British",
+        "en-AU-NatashaNeural":   "Natasha · F · AU",
+        "ja-JP-NanamiNeural":    "Nanami · F · Japanese",
+        "ja-JP-KeitaNeural":     "Keita · M · Japanese",
+        "ko-KR-SunHiNeural":     "SunHi · F · Korean",
+    },
+    "ja": {
+        "zh-CN-XiaoxiaoNeural":  "シャオシャオ · 女性 · 中国語 (CN)",
+        "zh-CN-YunxiNeural":     "ユンシー · 男性 · 中国語 (CN)",
+        "zh-CN-YunjianNeural":   "ユンジエン · 男性 · 中国語 (CN)",
+        "zh-CN-XiaoyiNeural":    "シャオイー · 女性 · 中国語 (CN)",
+        "zh-CN-YunyangNeural":   "ユンヤン · 男性 · 放送調 (CN)",
+        "zh-TW-HsiaoChenNeural": "シャオチェン · 女性 · 中国語 (TW)",
+        "en-US-JennyNeural":     "Jenny · 女性 · 英語 (米)",
+        "en-US-GuyNeural":       "Guy · 男性 · 英語 (米)",
+        "en-GB-SoniaNeural":     "Sonia · 女性 · 英語 (英)",
+        "en-AU-NatashaNeural":   "Natasha · 女性 · 英語 (豪)",
+        "ja-JP-NanamiNeural":    "七海 · 女性 · 日本語",
+        "ja-JP-KeitaNeural":     "圭太 · 男性 · 日本語",
+        "ko-KR-SunHiNeural":     "ソニ · 女性 · 韓国語",
+    },
+}
+
+WHISPER_MODELS = {
+    "zh": {
+        "tiny":   "~39M  · 最快  · 精度低",
+        "base":   "~74M  · 快    · 推荐",
+        "small":  "~244M · 中等  · 均衡",
+        "medium": "~769M · 慢    · 精度高",
+        "large":  "~1.5G · 最慢  · 最高精度",
+    },
+    "en": {
+        "tiny":   "~39M  · fastest · lower accuracy",
+        "base":   "~74M  · fast    · recommended",
+        "small":  "~244M · medium  · balanced",
+        "medium": "~769M · slow    · higher accuracy",
+        "large":  "~1.5G · slowest · best accuracy",
+    },
+    "ja": {
+        "tiny":   "~39M  · 最速  · 精度低め",
+        "base":   "~74M  · 速い  · 推奨",
+        "small":  "~244M · 中程度  · バランス",
+        "medium": "~769M · 遅い  · 高精度",
+        "large":  "~1.5G · 最遅  · 最高精度",
+    },
+}
